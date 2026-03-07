@@ -41,3 +41,14 @@
 - about
 - FAQ
 - contact CTA
+
+
+## Preview deployment (GitHub Pages)
+
+Проект подготовлен для static export и preview-деплоя на GitHub Pages через workflow:
+- `.github/workflows/preview-pages.yml`
+
+Важно:
+- Для project pages используется автоматический `basePath` из `GITHUB_REPOSITORY` в `next.config.mjs`.
+- Для user/org pages (`<user>.github.io`) basePath не добавляется.
+- При необходимости укажи `NEXT_PUBLIC_SITE_URL` для корректных абсолютных URL в sitemap/metadata.
