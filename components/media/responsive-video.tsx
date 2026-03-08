@@ -20,15 +20,15 @@ export function ResponsiveVideo({ src, poster, title, placeholderNote }: Respons
   const resolvedPoster = withBasePath(poster) ?? poster;
   const resolvedSrc = withBasePath(src);
 
-if (!resolvedSrc) {
-  return (
-    <div className="card">
-      {/* TODO: Replace with real video source from Rustam materials */}
-      <img src={resolvedPoster} alt={`${title} placeholder`} style={{ width: '100%', borderRadius: 10 }} />
-      {placeholderNote ? <p className="muted">{placeholderNote}</p> : null}
-    </div>
-  );
-}
+  if (!resolvedSrc) {
+    return (
+      <div className="card">
+        {/* TODO: Replace with real video source from Rustam materials */}
+        <img src={resolvedPoster} alt={`${title} placeholder`} style={{ width: '100%', borderRadius: 10 }} />
+        {placeholderNote ? <p className="muted">{placeholderNote}</p> : null}
+      </div>
+    );
+  }
 
   return (
     <video controls preload="none" poster={resolvedPoster} style={{ width: '100%', borderRadius: 12 }}>
