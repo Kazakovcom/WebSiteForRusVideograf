@@ -13,7 +13,7 @@ export async function FeaturedCasesSection() {
       <SectionHeading
         eyebrow="Featured Cases"
         title="Избранные кейсы"
-        description="Временные карточки: заменить после получения реальных кейсов."
+        description="Предпросмотр структуры кейсов с временными материалами."
       />
       <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
         {cases.slice(0, 3).map((item) => (

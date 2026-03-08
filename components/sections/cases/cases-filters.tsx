@@ -1,6 +1,6 @@
 import { Badge } from '@/components/ui/badge';
 
-const filters = ['All', 'Commercial', 'Interview/Podcast', 'Short-form'];
+const filters = ['Все', 'Коммерческие', 'Интервью и подкасты', 'Короткие форматы'];
 
 export function CasesFilters() {
   return (

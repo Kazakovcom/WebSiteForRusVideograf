@@ -5,9 +5,9 @@ export function CasesHero() {
   return (
     <Section>
       <SectionHeading
-        eyebrow="Cases"
+        eyebrow="Кейсы"
         title="Кейсы"
-        description="Демо-структура. Финальные кейсы и обложки будут заменены после получения материалов."
+        description="Раздел показывает структуру и формат подачи проектов в портфолио."
       />
     </Section>
   );

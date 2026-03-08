@@ -17,7 +17,7 @@ export function CasesGrid({ items }: CasesGridProps) {
           <p className="muted">{item.category} · {item.year}</p>
           <p className="muted">{item.shortDescription}</p>
           <Link href={`/cases/${item.slug}`} className="button">
-            Открыть
+            Смотреть кейс
           </Link>
         </Card>
       ))}

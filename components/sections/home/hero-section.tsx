@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <Section>
       <div className="grid" style={{ gap: '1.25rem' }}>
-        <p className="eyebrow">Portfolio scaffold</p>
+        <p className="eyebrow">Portfolio</p>
         <h1 style={{ margin: 0 }}>{heroContent.title}</h1>
         <p className="muted" style={{ margin: 0 }}>{heroContent.subtitle}</p>
         <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>

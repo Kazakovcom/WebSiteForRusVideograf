@@ -9,8 +9,7 @@ interface Props {
 export function CaseGallery({ item }: Props) {
   return (
     <Section>
-      <h2>Gallery</h2>
-      {/* TODO: replace gallery placeholders with real frames/videos from the project */}
+      <h2>Галерея</h2>
       <MediaGallery items={item.gallery} title={item.title} />
     </Section>
   );

@@ -11,7 +11,9 @@ export async function AboutSection() {
     <Section>
       <SectionHeading eyebrow="About" title="О Рустаме" />
       <div className="grid" style={{ gridTemplateColumns: '1fr', gap: '1rem' }}>
-        <LazyMedia src="/media/placeholders/portrait-placeholder.svg" alt="Рустам placeholder" width={900} height={600} />
+        <div style={{ maxWidth: 520 }}>
+          <LazyMedia src="/media/placeholders/portrait-placeholder.svg" alt="Портрет" width={700} height={500} />
+        </div>
         <p className="muted" style={{ margin: 0 }}>{aboutNote}</p>
         {paragraphs.map((paragraph) => (
           <p key={paragraph} style={{ margin: 0 }}>{paragraph}</p>

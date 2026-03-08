@@ -1,7 +1,7 @@
 import { ContactChannel } from '@/types/content';
 
 export const contactChannels: ContactChannel[] = [
-  { label: 'Telegram', value: 'Добавить ссылку после согласования' },
-  { label: 'WhatsApp', value: 'Добавить номер после согласования' },
-  { label: 'Email', value: 'Добавить email после согласования' }
+  { label: 'Telegram', value: 'Ссылка будет добавлена после подтверждения контактов' },
+  { label: 'WhatsApp', value: 'Номер будет добавлен после подтверждения контактов' },
+  { label: 'Email', value: 'Адрес будет добавлен после подтверждения контактов' }
 ];

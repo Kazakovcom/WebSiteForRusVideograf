@@ -7,16 +7,12 @@ export const heroContent: HeroContent = {
   ctaPrimary: 'Смотреть кейсы',
   ctaSecondary: 'Обсудить задачу',
   videoPlaceholder: '/media/placeholders/hero-poster.svg',
-  note: 'TODO: заменить на реальный hero video / showreel после получения материалов от Рустама.'
+  note: 'Предпросмотр первого экрана: финальный видеоматериал будет добавлен после передачи исходников.'
 };
 
-export const trustPills = [
-  'Сочи + выездные съёмки',
-  'Полный цикл производства',
-  'AI как усиление процесса'
-];
+export const trustPills = ['Сочи + выездные съёмки', 'Полный цикл производства', 'AI как усиление процесса'];
 
-export const aboutNote = 'TODO: заменить placeholder-портрет и добавить реальные кадры backstage.';
+export const aboutNote = 'В этом блоке используется временный визуальный материал для предпросмотра структуры.';
 
 export const finalCta = {
   title: 'Обсудим задачу и формат результата',

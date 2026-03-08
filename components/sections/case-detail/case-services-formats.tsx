@@ -11,11 +11,11 @@ export function CaseServicesFormats({ item }: Props) {
     <Section>
       <div className="grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))' }}>
         <Card>
-          <h3>Services used</h3>
+          <h3>Что было в работе</h3>
           <ul>{item.servicesUsed.map((service) => <li key={service}>{service}</li>)}</ul>
         </Card>
         <Card>
-          <h3>Formats delivered</h3>
+          <h3>Форматы на выходе</h3>
           <ul>{item.formatsDelivered.map((format) => <li key={format}>{format}</li>)}</ul>
         </Card>
       </div>

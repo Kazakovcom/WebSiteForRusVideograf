@@ -5,9 +5,9 @@ export function ContactsHero() {
   return (
     <Section>
       <SectionHeading
-        eyebrow="Contacts"
-        title="Контакты"
-        description="Финальные реквизиты будут подставлены после согласования с Рустамом."
+        eyebrow="Контакты"
+        title="Связаться"
+        description="Выберите удобный канал — на этом этапе доступны предпросмотровые реквизиты."
       />
     </Section>
   );

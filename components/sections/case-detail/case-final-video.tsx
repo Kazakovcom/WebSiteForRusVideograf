@@ -9,12 +9,12 @@ interface Props {
 export function CaseFinalVideo({ item }: Props) {
   return (
     <Section>
-      <h2>Final video</h2>
+      <h2>Финальный ролик</h2>
       <ResponsiveVideo
         src={item.finalVideoUrl}
         poster={item.coverImage}
         title={item.title}
-        placeholderNote="TODO: добавить финальный URL видео после получения готового кейса."
+        placeholderNote="Видео в полном качестве будет добавлено в финальной версии кейса."
       />
     </Section>
   );
