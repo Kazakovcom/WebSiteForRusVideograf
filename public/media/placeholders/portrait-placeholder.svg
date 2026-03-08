@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#242830"/>
+  <circle cx="600" cy="320" r="120" fill="#3e4550"/>
+  <rect x="420" y="460" width="360" height="220" rx="80" fill="#3e4550"/>
+  <text x="50%" y="760" fill="#d9dce1" text-anchor="middle" font-family="Arial" font-size="30">Portrait Placeholder — replace with Rustam photo/BTS</text>
+</svg>
