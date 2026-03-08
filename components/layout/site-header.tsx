@@ -12,7 +12,7 @@ export function SiteHeader() {
             Rustam Bariev
           </Link>
 
-          <nav className="desktop-nav" style={{ display: 'none', gap: '1rem' }}>
+          <nav className="desktop-nav" style={{ gap: '1rem' }}>
             {navigation.map((item) => (
               <Link key={item.href} href={item.href}>
                 {item.label}
@@ -26,16 +26,6 @@ export function SiteHeader() {
         </div>
       </PageContainer>
 
-      <style jsx>{`
-        @media (min-width: 768px) {
-          .desktop-nav {
-            display: flex !important;
-          }
-          .mobile-nav {
-            display: none;
-          }
-        }
-      `}</style>
     </header>
   );
 }
